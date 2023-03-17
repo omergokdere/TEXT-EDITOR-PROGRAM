@@ -1,0 +1,58 @@
+﻿Build started 4.11.2013 19:19:50.
+     1>Project "F:\CEN133-SOFTWARE ENGINEER\PROJECTS\TEXT EDITOR PROGRAM\TEXT EDITOR PROGRAM\TEXT EDITOR PROGRAM.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\TEXT EDITOR PROGRAM.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\TEXT EDITOR PROGRAM.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt editor.c
+         editor.c
+     1>f:\cen133-software engineer\projects\text editor program\text editor program\editor.c(20): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+     1>f:\cen133-software engineer\projects\text editor program\text editor program\editor.c(38): warning C4018: '<=' : signed/unsigned mismatch
+     1>f:\cen133-software engineer\projects\text editor program\text editor program\editor.c(44): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\cen133-software engineer\projects\text editor program\text editor program\editor.c(45): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\cen133-software engineer\projects\text editor program\text editor program\editor.c(62): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+     1>f:\cen133-software engineer\projects\text editor program\text editor program\editor.c(72): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+     1>f:\cen133-software engineer\projects\text editor program\text editor program\editor.c(74): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>f:\cen133-software engineer\projects\text editor program\text editor program\editor.c(81): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : see declaration of 'gets'
+     1>f:\cen133-software engineer\projects\text editor program\text editor program\editor.c(114): warning C4018: '<=' : signed/unsigned mismatch
+     1>f:\cen133-software engineer\projects\text editor program\text editor program\editor.c(116): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\cen133-software engineer\projects\text editor program\text editor program\editor.c(120): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\cen133-software engineer\projects\text editor program\text editor program\editor.c(121): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\cen133-software engineer\projects\text editor program\text editor program\editor.c(122): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\cen133-software engineer\projects\text editor program\text editor program\editor.c(139): warning C4018: '<=' : signed/unsigned mismatch
+     1>f:\cen133-software engineer\projects\text editor program\text editor program\editor.c(141): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>f:\cen133-software engineer\projects\text editor program\text editor program\editor.c(107): warning C4700: uninitialized local variable 'command' used
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\TEXT EDITOR PROGRAM.exe.embed.manifest.res" "Debug\TEXT EDITOR PROGRAM_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\CEN133-SOFTWARE ENGINEER\PROJECTS\TEXT EDITOR PROGRAM\Debug\TEXT EDITOR PROGRAM.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TEXT EDITOR PROGRAM.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\CEN133-SOFTWARE ENGINEER\PROJECTS\TEXT EDITOR PROGRAM\Debug\TEXT EDITOR PROGRAM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\CEN133-SOFTWARE ENGINEER\PROJECTS\TEXT EDITOR PROGRAM\Debug\TEXT EDITOR PROGRAM.lib" /MACHINE:X86 "Debug\TEXT EDITOR PROGRAM.exe.embed.manifest.res"
+         Debug\editor.obj
+       Manifest:
+         Deleting file "Debug\TEXT EDITOR PROGRAM.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\TEXT EDITOR PROGRAM.exe.embed.manifest" /manifest "Debug\TEXT EDITOR PROGRAM.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\TEXT EDITOR PROGRAM.exe.embed.manifest.res" "Debug\TEXT EDITOR PROGRAM_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\CEN133-SOFTWARE ENGINEER\PROJECTS\TEXT EDITOR PROGRAM\Debug\TEXT EDITOR PROGRAM.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TEXT EDITOR PROGRAM.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\CEN133-SOFTWARE ENGINEER\PROJECTS\TEXT EDITOR PROGRAM\Debug\TEXT EDITOR PROGRAM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\CEN133-SOFTWARE ENGINEER\PROJECTS\TEXT EDITOR PROGRAM\Debug\TEXT EDITOR PROGRAM.lib" /MACHINE:X86 "Debug\TEXT EDITOR PROGRAM.exe.embed.manifest.res"
+         Debug\editor.obj
+         TEXT EDITOR PROGRAM.vcxproj -> F:\CEN133-SOFTWARE ENGINEER\PROJECTS\TEXT EDITOR PROGRAM\Debug\TEXT EDITOR PROGRAM.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\TEXT EDITOR PROGRAM.unsuccessfulbuild".
+         Touching "Debug\TEXT EDITOR PROGRAM.lastbuildstate".
+     1>Done Building Project "F:\CEN133-SOFTWARE ENGINEER\PROJECTS\TEXT EDITOR PROGRAM\TEXT EDITOR PROGRAM\TEXT EDITOR PROGRAM.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.97
